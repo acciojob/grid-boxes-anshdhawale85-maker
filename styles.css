@@ -1,1 +1,79 @@
 /*  your css code here. If applicable */
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 1200px;
+    height: 1000px;
+    gap: 10px;
+    grid-template-areas: 
+    "a1 a1 a1 a1"
+    "a2 a3 a4 a4"
+    "a2 a5 a5 a6"
+    "a2 a7 a8 a9"
+    "a2 a10 a10 a10"
+    ;
+}
+
+
+.eg1{
+  
+  background-color: goldenrod;
+  grid-area: a1;
+}
+
+.eg2{
+    
+    background-color: goldenrod;
+    grid-area: a2;
+}
+
+.eg3{
+    
+    background-color: goldenrod;
+    grid-area: a3;
+}
+
+.eg4{
+    
+    background-color: goldenrod;
+    grid-area: a4;
+}
+
+.eg5{
+    
+    background-color: goldenrod;
+    grid-area: a5;
+}
+
+.eg6{
+    
+    background-color: goldenrod;
+    grid-area: a6;
+}
+
+.eg7{
+    
+    background-color: goldenrod;
+    grid-area: a7;
+}
+
+.eg8{
+    
+    background-color: goldenrod;
+    grid-area: a8;
+}
+
+.eg9{
+    
+    background-color: goldenrod;
+    grid-area: a9;
+}
+
+.eg10{
+    
+    background-color: goldenrod;
+    grid-area: a10;
+}
+
+
