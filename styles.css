@@ -5,74 +5,74 @@
     width: 1200px;
     height: 1000px;
     gap: 10px;
-    grid-teplate-areas: 
-    "1 1 1 1"
-    "2 3 4 4"
-    "2 5 5 6"
-    "2 7 8 9"
-    "2 10 1 10"
-    ;
+    grid-template-areas: 
+        "area1  area1  area1  area1"
+        "area2  area3  area4  area4"
+        "area2  area5  area5  area6"
+        "area2  area7  area8  area9"
+        "area2 area10 area10 area10";
+
 }
 
 
 .eg1{
   
   background-color: goldenrod;
-  grid-area: 1;
+  grid-area: area1;
 }
 
 .eg2{
     
     background-color: goldenrod;
-    grid-area: 2;
+    grid-area: area2;
 }
 
 .eg3{
     
     background-color: goldenrod;
-    grid-area: 3;
+    grid-area: area3;
 }
 
 .eg4{
     
     background-color: goldenrod;
-    grid-area: 4;
+    grid-area: area4;
 }
 
 .eg5{
     
     background-color: goldenrod;
-    grid-area: 5;
+    grid-area: area5;
 }
 
 .eg6{
     
     background-color: goldenrod;
-    grid-area: 6;
+    grid-area: area6;
 }
 
 .eg7{
     
     background-color: goldenrod;
-    grid-area: 7;
+    grid-area: area7;
 }
 
 .eg8{
     
     background-color: goldenrod;
-    grid-area: 8;
+    grid-area: area8;
 }
 
 .eg9{
     
     background-color: goldenrod;
-    grid-area: 9;
+    grid-area: area9;
 }
 
 .eg10{
     
     background-color: goldenrod;
-    grid-area: 10;
+    grid-area: area10;
 }
 
 
