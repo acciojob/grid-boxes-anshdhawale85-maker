@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,12 +5,12 @@
     width: 1200px;
     height: 1000px;
     gap: 10px;
-    grid-template-areas: 
-    "a1 a1 a1 a1"
-    "a2 a3 a4 a4"
-    "a2 a5 a5 a6"
-    "a2 a7 a8 a9"
-    "a2 a10 a10 a10"
+    grid-teplate-areas: 
+    "1 1 1 1"
+    "2 3 4 4"
+    "2 5 5 6"
+    "2 7 8 9"
+    "2 10 1 10"
     ;
 }
 
@@ -19,61 +18,61 @@
 .eg1{
   
   background-color: goldenrod;
-  grid-area: a1;
+  grid-area: 1;
 }
 
 .eg2{
     
     background-color: goldenrod;
-    grid-area: a2;
+    grid-area: 2;
 }
 
 .eg3{
     
     background-color: goldenrod;
-    grid-area: a3;
+    grid-area: 3;
 }
 
 .eg4{
     
     background-color: goldenrod;
-    grid-area: a4;
+    grid-area: 4;
 }
 
 .eg5{
     
     background-color: goldenrod;
-    grid-area: a5;
+    grid-area: 5;
 }
 
 .eg6{
     
     background-color: goldenrod;
-    grid-area: a6;
+    grid-area: 6;
 }
 
 .eg7{
     
     background-color: goldenrod;
-    grid-area: a7;
+    grid-area: 7;
 }
 
 .eg8{
     
     background-color: goldenrod;
-    grid-area: a8;
+    grid-area: 8;
 }
 
 .eg9{
     
     background-color: goldenrod;
-    grid-area: a9;
+    grid-area: 9;
 }
 
 .eg10{
     
     background-color: goldenrod;
-    grid-area: a10;
+    grid-area: 10;
 }
 
 
